@@ -3,7 +3,7 @@
     <property name="created">2025-12-22T12:27:00</property>
     <property name="ide">PhpStorm</property>
     <property name="ideVersion">2024.1.0.0</property>
-    <property name="modified">2025-12-22T12:27:00</property>
+    <property name="modified">2025-12-23T00:30:00</property>
   </metaInfo>
 
   <colors>
@@ -107,6 +107,25 @@
     </option>
 
     <option name="BRACKETS">
+      <value>
+        <option name="FOREGROUND" value="aaaaaa" />
+      </value>
+    </option>
+
+    <!-- Semicolons and other delimiters - light gray -->
+    <option name="SEMICOLON">
+      <value>
+        <option name="FOREGROUND" value="aaaaaa" />
+      </value>
+    </option>
+
+    <option name="COMMA">
+      <value>
+        <option name="FOREGROUND" value="aaaaaa" />
+      </value>
+    </option>
+
+    <option name="DOT">
       <value>
         <option name="FOREGROUND" value="aaaaaa" />
       </value>
@@ -384,6 +403,25 @@
       </value>
     </option>
 
+    <option name="JS.GLOBAL_VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="b3b3b3" />
+      </value>
+    </option>
+
+    <option name="JS.MODULE_NAME">
+      <value>
+        <option name="FOREGROUND" value="aaaaaa" />
+      </value>
+    </option>
+
+    <option name="JS.INSTANCE_MEMBER_VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="b3b3b3" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+
     <option name="JS.STRING">
       <value>
         <option name="FOREGROUND" value="ffffff" />
@@ -398,9 +436,373 @@
       </value>
     </option>
 
+    <!-- JavaScript punctuation and operators -->
+    <option name="JS.SEMICOLON">
+      <value>
+        <option name="FOREGROUND" value="aaaaaa" />
+      </value>
+    </option>
+
+    <option name="JS.COMMA">
+      <value>
+        <option name="FOREGROUND" value="aaaaaa" />
+      </value>
+    </option>
+
+    <option name="JS.DOT">
+      <value>
+        <option name="FOREGROUND" value="aaaaaa" />
+      </value>
+    </option>
+
+    <option name="JS.OPERATION_SIGN">
+      <value>
+        <option name="FOREGROUND" value="bbbbbb" />
+      </value>
+    </option>
+
+    <option name="JS.PARENTHESIS">
+      <value>
+        <option name="FOREGROUND" value="aaaaaa" />
+      </value>
+    </option>
+
+    <option name="JS.BRACKETS">
+      <value>
+        <option name="FOREGROUND" value="aaaaaa" />
+      </value>
+    </option>
+
+    <option name="JS.BRACES">
+      <value>
+        <option name="FOREGROUND" value="aaaaaa" />
+      </value>
+    </option>
+
+    <option name="JS.KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="dddddd" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+
+    <option name="JS.NUMBER">
+      <value>
+        <option name="FOREGROUND" value="ffffff" />
+        <option name="FONT_TYPE" value="0" />
+      </value>
+    </option>
+
+    <!-- TypeScript specific -->
     <option name="TS.TYPE_PARAMETER">
       <value>
+        <option name="FOREGROUND" value="cccccc" />
+        <option name="FONT_TYPE" value="0" />
+      </value>
+    </option>
+
+    <option name="TYPESCRIPT_TYPE_PARAMETER">
+      <value>
+        <option name="FOREGROUND" value="cccccc" />
+        <option name="FONT_TYPE" value="0" />
+      </value>
+    </option>
+
+    <option name="TS.TYPE_ALIAS">
+      <value>
         <option name="FOREGROUND" value="ff1493" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+
+    <option name="TYPESCRIPT_TYPE_ALIAS">
+      <value>
+        <option name="FOREGROUND" value="ff1493" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+
+    <option name="TYPESCRIPT_INTERFACE">
+      <value>
+        <option name="FOREGROUND" value="ff1493" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+
+    <option name="TYPESCRIPT_CLASS">
+      <value>
+        <option name="FOREGROUND" value="ff1493" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+
+    <option name="TYPESCRIPT_FUNCTION">
+      <value>
+        <option name="FOREGROUND" value="ff1493" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+
+    <option name="TYPESCRIPT_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="dddddd" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+
+    <option name="TYPESCRIPT_PRIMITIVE_TYPE">
+      <value>
+        <option name="FOREGROUND" value="cccccc" />
+        <option name="FONT_TYPE" value="0" />
+      </value>
+    </option>
+
+    <option name="TYPESCRIPT_CLASS_REFERENCE">
+      <value>
+        <option name="FOREGROUND" value="ff1493" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+
+    <option name="TYPESCRIPT_INTERFACE_REFERENCE">
+      <value>
+        <option name="FOREGROUND" value="ff1493" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+
+    <option name="JS.CLASS">
+      <value>
+        <option name="FOREGROUND" value="ff1493" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+
+    <option name="JS.CLASS_REFERENCE">
+      <value>
+        <option name="FOREGROUND" value="ff1493" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+
+    <option name="TS.CLASS_REFERENCE">
+      <value>
+        <option name="FOREGROUND" value="ff1493" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+
+    <option name="INTERFACE_NAME">
+      <value>
+        <option name="FOREGROUND" value="ff1493" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+
+    <option name="CLASS_NAME">
+      <value>
+        <option name="FOREGROUND" value="ff1493" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+
+    <option name="ABSTRACT_CLASS_NAME">
+      <value>
+        <option name="FOREGROUND" value="ff1493" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+
+    <option name="ANONYMOUS_CLASS_NAME">
+      <value>
+        <option name="FOREGROUND" value="ff1493" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+
+    <option name="TYPE_ALIAS_NAME">
+      <value>
+        <option name="FOREGROUND" value="ff1493" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+
+    <!-- JSX/TSX React -->
+    <!-- React Component Tags (capitalized) - HOT PINK -->
+    <option name="JSX.COMPONENT_TAG_NAME">
+      <value>
+        <option name="FOREGROUND" value="ff1493" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+
+    <option name="TSX.COMPONENT_TAG_NAME">
+      <value>
+        <option name="FOREGROUND" value="ff1493" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+
+    <option name="REACT.COMPONENT_TAG">
+      <value>
+        <option name="FOREGROUND" value="ff1493" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+
+    <option name="JSX.COMPONENT">
+      <value>
+        <option name="FOREGROUND" value="ff1493" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+
+    <option name="TSX.COMPONENT">
+      <value>
+        <option name="FOREGROUND" value="ff1493" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+
+    <!-- HTML tags in JSX (lowercase) - gray -->
+    <option name="JSX.TAG_NAME">
+      <value>
+        <option name="FOREGROUND" value="cccccc" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+
+    <option name="TSX.TAG_NAME">
+      <value>
+        <option name="FOREGROUND" value="cccccc" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+
+    <!-- JSX tag delimiters < > /> -->
+    <option name="JSX.TAG">
+      <value>
+        <option name="FOREGROUND" value="aaaaaa" />
+      </value>
+    </option>
+
+    <option name="TSX.TAG">
+      <value>
+        <option name="FOREGROUND" value="aaaaaa" />
+      </value>
+    </option>
+
+    <!-- JSX attributes -->
+    <option name="JSX.ATTRIBUTE_NAME">
+      <value>
+        <option name="FOREGROUND" value="b3b3b3" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+
+    <option name="TSX.ATTRIBUTE_NAME">
+      <value>
+        <option name="FOREGROUND" value="b3b3b3" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+
+    <option name="REACT.COMPONENT_TAG_NAME">
+      <value>
+        <option name="FOREGROUND" value="ff1493" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+
+    <option name="XML.TAG_NAME.IN.JSX">
+      <value>
+        <option name="FOREGROUND" value="cccccc" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+
+    <option name="XML.TAG.IN.JSX">
+      <value>
+        <option name="FOREGROUND" value="aaaaaa" />
+      </value>
+    </option>
+
+    <!-- Additional React/JSX overrides -->
+    <!-- Custom keyword slots - PhpStorm maps JSX syntax to these -->
+    <option name="CUSTOM_KEYWORD1_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="aaaaaa" />
+      </value>
+    </option>
+
+    <option name="CUSTOM_KEYWORD2_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="aaaaaa" />
+      </value>
+    </option>
+
+    <option name="CUSTOM_KEYWORD3_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="aaaaaa" />
+      </value>
+    </option>
+
+    <option name="CUSTOM_KEYWORD4_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="aaaaaa" />
+      </value>
+    </option>
+
+    <!-- JSX/XML tag delimiters -->
+    <option name="JSX.XML_TAG">
+      <value>
+        <option name="FOREGROUND" value="aaaaaa" />
+      </value>
+    </option>
+
+    <option name="TSX.XML_TAG">
+      <value>
+        <option name="FOREGROUND" value="aaaaaa" />
+      </value>
+    </option>
+
+    <option name="JS.XML_TAG">
+      <value>
+        <option name="FOREGROUND" value="aaaaaa" />
+      </value>
+    </option>
+
+    <option name="TS.XML_TAG">
+      <value>
+        <option name="FOREGROUND" value="aaaaaa" />
+      </value>
+    </option>
+
+    <!-- JSX identifier (component names when used as tags) -->
+    <option name="JSX.IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="ff1493" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+
+    <option name="TSX.IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="ff1493" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+
+    <!-- HTML tag in JSX context -->
+    <option name="HTML.TAG.IN.JSX">
+      <value>
+        <option name="FOREGROUND" value="aaaaaa" />
+      </value>
+    </option>
+
+    <option name="HTML.TAG_NAME.IN.JSX">
+      <value>
+        <option name="FOREGROUND" value="cccccc" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
@@ -414,7 +816,21 @@
 
     <option name="HTML_TAG_NAME">
       <value>
-        <option name="FOREGROUND" value="cccccc" />
+        <option name="FOREGROUND" value="ff1493" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+
+    <option name="HTML_CUSTOM_TAG_NAME">
+      <value>
+        <option name="FOREGROUND" value="ff1493" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+
+    <option name="XML_CUSTOM_TAG_NAME">
+      <value>
+        <option name="FOREGROUND" value="ff1493" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
@@ -437,6 +853,158 @@
       <value>
         <option name="FOREGROUND" value="ffffff" />
         <option name="FONT_TYPE" value="0" />
+      </value>
+    </option>
+
+    <option name="XML_TAG">
+      <value>
+        <option name="FOREGROUND" value="aaaaaa" />
+      </value>
+    </option>
+
+    <option name="XML_TAG_NAME">
+      <value>
+        <option name="FOREGROUND" value="ff1493" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+
+    <option name="XML_ATTRIBUTE_NAME">
+      <value>
+        <option name="FOREGROUND" value="b3b3b3" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+
+    <option name="XML_ATTRIBUTE_VALUE">
+      <value>
+        <option name="FOREGROUND" value="ffffff" />
+        <option name="FONT_TYPE" value="0" />
+      </value>
+    </option>
+
+    <option name="XML_NS_PREFIX">
+      <value>
+        <option name="FOREGROUND" value="aaaaaa" />
+      </value>
+    </option>
+
+    <option name="HTML_CODE">
+      <value>
+        <option name="FOREGROUND" value="cccccc" />
+      </value>
+    </option>
+
+    <option name="XML_CODE">
+      <value>
+        <option name="FOREGROUND" value="cccccc" />
+      </value>
+    </option>
+
+    <option name="HTML_ENTITY_REFERENCE">
+      <value>
+        <option name="FOREGROUND" value="ffffff" />
+      </value>
+    </option>
+
+    <!-- React/TypeScript specific component references -->
+    <option name="TSX.COMPONENT_NAME">
+      <value>
+        <option name="FOREGROUND" value="ff1493" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+
+    <option name="JSX.COMPONENT_NAME">
+      <value>
+        <option name="FOREGROUND" value="ff1493" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+
+    <option name="REACT.COMPONENT">
+      <value>
+        <option name="FOREGROUND" value="ff1493" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+
+    <option name="REACT.COMPONENT_NAME">
+      <value>
+        <option name="FOREGROUND" value="ff1493" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+
+    <!-- Annotation/Metadata overrides (might be used for components) -->
+    <option name="ANNOTATION_NAME_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="ff1493" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+
+    <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="b3b3b3" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+
+    <option name="METADATA">
+      <value>
+        <option name="FOREGROUND" value="ff1493" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+
+    <!-- Tag entity name variations -->
+    <option name="TAG_ENTITY_NAME">
+      <value>
+        <option name="FOREGROUND" value="ff1493" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+
+    <option name="XML.TAG_ENTITY_NAME">
+      <value>
+        <option name="FOREGROUND" value="ff1493" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+
+    <option name="JSX.TAG_ENTITY_NAME">
+      <value>
+        <option name="FOREGROUND" value="ff1493" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+
+    <option name="TSX.TAG_ENTITY_NAME">
+      <value>
+        <option name="FOREGROUND" value="ff1493" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+
+    <option name="CONSTRUCTOR">
+      <value>
+        <option name="FOREGROUND" value="ff1493" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+
+    <option name="CONSTRUCTOR_CALL">
+      <value>
+        <option name="FOREGROUND" value="ff1493" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+
+    <option name="CONSTRUCTOR_DECLARATION">
+      <value>
+        <option name="FOREGROUND" value="ff1493" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
 
@@ -600,6 +1168,35 @@
       </value>
     </option>
 
+    <option name="WRONG_REFERENCES_ATTRIBUTES">
+      <value>
+        <option name="EFFECT_COLOR" value="cc0000" />
+        <option name="EFFECT_TYPE" value="2" />
+      </value>
+    </option>
+
+    <option name="RUNTIME_ERROR">
+      <value>
+        <option name="EFFECT_COLOR" value="cc0000" />
+        <option name="ERROR_STRIPE_COLOR" value="cc0000" />
+        <option name="EFFECT_TYPE" value="5" />
+      </value>
+    </option>
+
+    <option name="BAD_CHARACTER">
+      <value>
+        <option name="FOREGROUND" value="cccccc" />
+        <option name="EFFECT_COLOR" value="cc0000" />
+        <option name="EFFECT_TYPE" value="2" />
+      </value>
+    </option>
+
+    <option name="DUPLICATE_FROM_SERVER">
+      <value>
+        <option name="BACKGROUND" value="1a151d" />
+      </value>
+    </option>
+
     <!-- Search results -->
     <option name="SEARCH_RESULT_ATTRIBUTES">
       <value>
@@ -617,6 +1214,12 @@
 
     <!-- Identifiers -->
     <option name="DEFAULT_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="cccccc" />
+      </value>
+    </option>
+
+    <option name="IDENTIFIER">
       <value>
         <option name="FOREGROUND" value="cccccc" />
       </value>
@@ -643,9 +1246,84 @@
       </value>
     </option>
 
+    <option name="DEFAULT_CLASS_REFERENCE">
+      <value>
+        <option name="FOREGROUND" value="ff1493" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+
+    <!-- TypeScript/JavaScript identifier overrides -->
+    <option name="JS.IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="cccccc" />
+      </value>
+    </option>
+
+    <option name="TS.IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="cccccc" />
+      </value>
+    </option>
+
+    <option name="TYPESCRIPT.IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="cccccc" />
+      </value>
+    </option>
+
+    <option name="JAVASCRIPT.IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="cccccc" />
+      </value>
+    </option>
+
+    <!-- Function/Class identifiers that should be hot pink -->
+    <option name="FUNCTION_CALL">
+      <value>
+        <option name="FOREGROUND" value="ff1493" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+
+    <option name="DEFAULT_FUNCTION_CALL">
+      <value>
+        <option name="FOREGROUND" value="ff1493" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+
+    <option name="JS.FUNCTION_CALL">
+      <value>
+        <option name="FOREGROUND" value="ff1493" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+
+    <option name="TS.FUNCTION_CALL">
+      <value>
+        <option name="FOREGROUND" value="ff1493" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+
+    <option name="TYPESCRIPT.FUNCTION_CALL">
+      <value>
+        <option name="FOREGROUND" value="ff1493" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+
     <option name="DEFAULT_STATIC_METHOD">
       <value>
         <option name="FOREGROUND" value="ff1493" />
+        <option name="FONT_TYPE" value="3" />
+      </value>
+    </option>
+
+    <option name="DEFAULT_STATIC_FIELD">
+      <value>
+        <option name="FOREGROUND" value="b3b3b3" />
         <option name="FONT_TYPE" value="3" />
       </value>
     </option>
@@ -654,6 +1332,13 @@
       <value>
         <option name="FOREGROUND" value="ff1493" />
         <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+
+    <option name="DEFAULT_INSTANCE_FIELD">
+      <value>
+        <option name="FOREGROUND" value="b3b3b3" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
 
@@ -718,6 +1403,35 @@
       </value>
     </option>
 
+    <!-- Template language / React component injection -->
+    <option name="TEMPLATE_LANGUAGE_COLOR">
+      <value>
+        <option name="FOREGROUND" value="ff1493" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+
+    <option name="REACT.INJECTED_COMPONENT">
+      <value>
+        <option name="FOREGROUND" value="ff1493" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+
+    <option name="JSX.INJECTED_LANGUAGE">
+      <value>
+        <option name="FOREGROUND" value="ff1493" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+
+    <option name="TSX.INJECTED_LANGUAGE">
+      <value>
+        <option name="FOREGROUND" value="ff1493" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+
     <!-- Semantic highlighting overrides - force grayscale -->
     <option name="SEMANTIC_HIGHLIGHTING.PROPERTY">
       <value>
@@ -776,8 +1490,79 @@
 
     <option name="SEMANTIC_HIGHLIGHTING.TYPE_ALIAS">
       <value>
+        <option name="FOREGROUND" value="ff1493" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+
+    <option name="SEMANTIC_HIGHLIGHTING.ENUM">
+      <value>
+        <option name="FOREGROUND" value="ff1493" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+
+    <option name="SEMANTIC_HIGHLIGHTING.NAMESPACE">
+      <value>
+        <option name="FOREGROUND" value="aaaaaa" />
+      </value>
+    </option>
+
+    <option name="SEMANTIC_HIGHLIGHTING.KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="dddddd" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+
+    <option name="SEMANTIC_HIGHLIGHTING.TYPE">
+      <value>
         <option name="FOREGROUND" value="cccccc" />
         <option name="FONT_TYPE" value="0" />
+      </value>
+    </option>
+
+    <!-- Semantic highlighting for React components -->
+    <option name="SEMANTIC_HIGHLIGHTING.COMPONENT">
+      <value>
+        <option name="FOREGROUND" value="ff1493" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+
+    <option name="SEMANTIC_HIGHLIGHTING.REACT_COMPONENT">
+      <value>
+        <option name="FOREGROUND" value="ff1493" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+
+    <option name="SEMANTIC_HIGHLIGHTING.JSX_COMPONENT">
+      <value>
+        <option name="FOREGROUND" value="ff1493" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+
+    <option name="SEMANTIC_HIGHLIGHTING.TSX_COMPONENT">
+      <value>
+        <option name="FOREGROUND" value="ff1493" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+
+    <!-- Entity name overrides -->
+    <option name="ENTITY_NAME_TAG">
+      <value>
+        <option name="FOREGROUND" value="ff1493" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+
+    <option name="ENTITY_OTHER_ATTRIBUTE_NAME">
+      <value>
+        <option name="FOREGROUND" value="b3b3b3" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
 
