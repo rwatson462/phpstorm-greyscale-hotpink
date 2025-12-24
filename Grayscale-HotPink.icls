@@ -21,7 +21,7 @@
     <option name="VISUAL_INDENT_GUIDE" value="1a151d" />
     <option name="FOLDED_TEXT_BORDER_COLOR" value="403545" />
     <option name="DOCUMENTATION_COLOR" value="1a151d" />
-    <option name="DOC_COMMENT_LINK" value="aaaaaa" />
+    <option name="DOC_COMMENT_LINK" value="888888" />
   </colors>
 
   <attributes>
@@ -33,32 +33,310 @@
       </value>
     </option>
 
-    <!-- Comments - italic, darker gray -->
+    <!-- Comments - different shades of grey, light/italic weight -->
     <option name="COMMENTS">
       <value>
-        <option name="FOREGROUND" value="666666" />
+        <option name="FOREGROUND" value="999999" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
 
     <option name="BLOCK_COMMENT">
       <value>
-        <option name="FOREGROUND" value="666666" />
+        <option name="FOREGROUND" value="999999" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
 
     <option name="DOC_COMMENT">
       <value>
-        <option name="FOREGROUND" value="808080" />
+        <option name="FOREGROUND" value="999999" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
 
     <option name="DOC_COMMENT_TAG">
       <value>
+        <option name="FOREGROUND" value="888888" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+
+    <option name="DOC_COMMENT_TAG_VALUE">
+      <value>
+        <option name="FOREGROUND" value="aaaaaa" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+
+    <option name="DOC_REFERENCE">
+      <value>
+        <option name="FOREGROUND" value="aaaaaa" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+
+    <option name="DOC_TYPE">
+      <value>
+        <option name="FOREGROUND" value="aaaaaa" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+
+    <option name="LINE_COMMENT">
+      <value>
         <option name="FOREGROUND" value="999999" />
-        <option name="FONT_TYPE" value="3" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+
+    <!-- PHP Comments - grey shades, italic -->
+    <option name="PHP_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="999999" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+
+    <option name="PHP_LINE_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="999999" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+
+    <option name="PHP_DOC_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="999999" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+
+    <option name="PHP_DOC_COMMENT_TAG">
+      <value>
+        <option name="FOREGROUND" value="888888" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+
+    <option name="PHP_DOC_TAG">
+      <value>
+        <option name="FOREGROUND" value="888888" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+
+    <option name="PHP_DOC_MARKUP">
+      <value>
+        <option name="FOREGROUND" value="888888" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+
+    <option name="PHP_DOC_TAG_VALUE">
+      <value>
+        <option name="FOREGROUND" value="aaaaaa" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+
+    <option name="PHP_DOC_REFERENCE">
+      <value>
+        <option name="FOREGROUND" value="aaaaaa" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+
+    <option name="PHP_DOC_TYPE">
+      <value>
+        <option name="FOREGROUND" value="aaaaaa" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+
+    <!-- JavaScript/TypeScript Comments - grey shades, italic -->
+    <option name="JS.LINE_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="999999" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+
+    <option name="JS.BLOCK_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="999999" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+
+    <option name="JS.DOC_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="999999" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+
+    <option name="JS.DOC_TAG">
+      <value>
+        <option name="FOREGROUND" value="888888" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+
+    <option name="JS.DOC_COMMENT_TAG_VALUE">
+      <value>
+        <option name="FOREGROUND" value="aaaaaa" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+
+    <option name="JS.DOC_REFERENCE">
+      <value>
+        <option name="FOREGROUND" value="aaaaaa" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+
+    <option name="JS.DOC_TYPE">
+      <value>
+        <option name="FOREGROUND" value="aaaaaa" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+
+    <option name="TS.LINE_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="999999" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+
+    <option name="TS.BLOCK_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="999999" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+
+    <option name="TS.DOC_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="999999" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+
+    <option name="TS.DOC_TAG">
+      <value>
+        <option name="FOREGROUND" value="888888" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+
+    <option name="TS.DOC_REFERENCE">
+      <value>
+        <option name="FOREGROUND" value="aaaaaa" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+
+    <option name="TS.DOC_TYPE">
+      <value>
+        <option name="FOREGROUND" value="aaaaaa" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+
+    <option name="TS.DOC_COMMENT_TAG_VALUE">
+      <value>
+        <option name="FOREGROUND" value="aaaaaa" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+
+    <option name="TYPESCRIPT_LINE_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="999999" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+
+    <option name="TYPESCRIPT_BLOCK_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="999999" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+
+    <option name="TYPESCRIPT_DOC_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="999999" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+
+    <option name="TYPESCRIPT_DOC_TAG">
+      <value>
+        <option name="FOREGROUND" value="888888" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+
+    <option name="TYPESCRIPT_DOC_REFERENCE">
+      <value>
+        <option name="FOREGROUND" value="aaaaaa" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+
+    <option name="TYPESCRIPT_DOC_TYPE">
+      <value>
+        <option name="FOREGROUND" value="aaaaaa" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+
+    <option name="TYPESCRIPT_DOC_COMMENT_TAG_VALUE">
+      <value>
+        <option name="FOREGROUND" value="aaaaaa" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+
+    <!-- HTML/XML Comments - grey shades, italic -->
+    <option name="HTML_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="999999" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+
+    <option name="XML_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="999999" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+
+    <!-- CSS Comments - grey shades, italic -->
+    <option name="CSS.COMMENT">
+      <value>
+        <option name="FOREGROUND" value="999999" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+
+    <!-- SQL Comments - grey shades, italic -->
+    <option name="SQL_LINE_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="999999" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+
+    <option name="SQL_BLOCK_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="999999" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
 
@@ -1667,13 +1945,22 @@
     <option name="DOC_COMMENT_TAG_VALUE">
       <value>
         <option name="FOREGROUND" value="aaaaaa" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
 
     <option name="DOCUMENTATION_COLOR">
       <value>
-        <option name="FOREGROUND" value="cccccc" />
+        <option name="FOREGROUND" value="999999" />
         <option name="BACKGROUND" value="1a151d" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+
+    <option name="DOC_COMMENT_MARKUP">
+      <value>
+        <option name="FOREGROUND" value="888888" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
   </attributes>
